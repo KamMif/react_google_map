@@ -14,6 +14,7 @@ class App extends Component {
     return(
       <GoogleMapReact defaultCenter = { this.props.center }
                       defaultZoom = { this.props.zoom } >
+                      
         <MyPlace lat={ 54.75 } lng={ 56.04 } />
       </GoogleMapReact>
     )
